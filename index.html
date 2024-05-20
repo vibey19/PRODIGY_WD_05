@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- meta-tags -->
+    <!-- meta-tags -->  
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>weatherio</title>
@@ -52,7 +52,7 @@
               class="search-field"
               data-search-field
             />
-            <span class="m-icon icon">search</span>
+            <span class="m-icon">search</span>
             <button
               class="icon-btn leading-icon has-state"
               aria-label="close search"
@@ -81,7 +81,7 @@
             class="icon-btn has-state"
             aria-label="open search"
             data-search-toggler"
-          ><span class="m-icon">search</span></button>
+          ><span class="m-icon icon">search</span></button>
 
           <a href="#/current-location" class="btn-primary has-state" data-current-location-btn>
             <span class="m-icon">my_location</span>
@@ -90,5 +90,35 @@
         </div>
       </div>
     </header>
+
+    <main>
+      <article class="container">
+        <div class="content-left">
+          <!-- Current weather -->
+          <section class="section current-weather" aria-label="current-weather">
+            <div class="card card-lg current-weather-card">
+              <h2 class="title-2 card-title">
+                Now
+              </h2>
+              <div class="wrapper">
+                <p class="heading">25&deg;c</p>
+                <img src="./assets/images/weather_icons/01d.png" alt="weather-icon" class="weather-icon" width="64" height="64">
+              </div>
+              <p class="body-3">Overcast Clouds</p>
+              <ul class="meta-list">
+                <li class="meta-item">
+                  <span class="m-icon">calendar_today</span>
+                  <p class="title-3 meta-text">Thursday 16, Feb</p>
+                </li>
+                <li class="meta-item">
+                  <span class="m-icon">location_on</span>
+                  <p class="title-3 meta-text">London, GB</p>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
