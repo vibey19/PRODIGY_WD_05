@@ -13,35 +13,36 @@ The application is developed using HTML, CSS, and JavaScript, and it utilizes th
 1. [Project Overview](#project-overview)
 2. [Tech-Stack](#tech-stack)
 3. [Key Features](#key-features)
-4. [Installation](#installation)
-5. [Functionality](#functionality)
-6. [Contributing](#contributing)
+4. [Prerequisites](#prerequisites)
+5. [Installation](#installation)
+6. [Functionality](#functionality)
+7. [Contributing](#contributing)
 
-## 🗺 Project Overview
+## 🗺 <a name="project-overview">Project Overview
 
 The Weatherio is a user-friendly and responsive web application that allows users to search for cities and get detailed weather information. The data is presented in a visually appealing format with easy-to-understand icons and labels.
 
-## 🧮 Tech Stack
+## 🧮 <a name="tech-stack">Tech Stack
 [![My Skills](https://skillicons.dev/icons?i=html,css,js&theme=light)](https://skillicons.dev)
 
-## ⛳ Key Features:
+## ⛳ <a name="key-features">Key Features:
 1. View current weather conditions (temperature, weather icon, and description).<br/>
 2. Get a 5-day weather forecast.<br/>
 3. Display wind speed and temperature every 2 hours for the current day.<br/>
 4. Show sunrise and sunset times for the selected city.<br/>
 5. Provide information about air quality, humidity, visibility, feels like temperature, and atmospheric pressure.<br/>
 
-## ⚙ Prerequisites
+## ⚙ <a name="prerequisites">Prerequisites
 - Modern web browser (Chrome, Firefox, Safari, etc.).<br/>
 - Internet connection to fetch weather data from the OpenWeather API.
 
-## 👾 Installation
+## 👾 <a name="installation">Installation
 
 1. Clone the repository or download the project files to your local machine.
 2. Open `index.html` in your web browser.
 
 
-## 🏆 Functionality
+## 🏆 <a name="functionality">Functionality
 
 1. Users can search for a city to view its weather information.<br/>
 2. The application fetches real-time weather data from the OpenWeather API.<br/>
@@ -53,6 +54,6 @@ The Weatherio is a user-friendly and responsive web application that allows user
 8. The application is responsive and adapts to different screen sizes.<br/>
 
 
-## 📩 Contributing
+## 📩 <a name="contributing">Contributing
 
 I would love all and any contributions to enhance the project! If you find any issues or have ideas for improvements, please don't hesitate to report them through GitHub issues. You can also suggest enhancements or submit pull requests to help make this project even better.
